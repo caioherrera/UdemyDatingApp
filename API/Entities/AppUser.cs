@@ -7,6 +7,7 @@ namespace API.Entities
 {
     public class AppUser
     {
+        // Default user: bob, Pa$$w0rd
         public int Id { get; set; }
         public string UserName { get; set; }   
         public byte[] PasswordHash { get; set; }
